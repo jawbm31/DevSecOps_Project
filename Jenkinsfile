@@ -70,3 +70,5 @@ pipeline{
                 sh 'docker run -d --name netflix -p 8081:80 jawdev/netflix_app/netflix:latest'
             }
         }
+    }
+}
